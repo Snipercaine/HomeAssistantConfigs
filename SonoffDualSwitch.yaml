@@ -1,0 +1,17 @@
+switch:
+  - platform: mqtt
+    name: "Name1"
+    command_topic: "cmnd/Projectname/power1"
+    state_topic: "stat/Projectname/POWER1"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+  - platform: mqtt
+    name: "Name2"
+    command_topic: "cmnd/Projectname/power2"
+    state_topic: "stat/Projectname/POWER2"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true 
